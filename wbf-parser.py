@@ -166,8 +166,8 @@ class WaveFormParser:
 
 	def get_temperature_ranges(self):
 		for index, i in enumerate(range(self.header["TRC"] + 1)):
-			# print(f"Range {index}: from {numpy.uint8(data[48:][i])} to {numpy.uint8(data[48:][i + 1])} °C")
-			self.possible_temperature_ranges[i] = range(numpy.uint8(self.data[48:][i]), numpy.uint8(self.data[48:][
+			# print(f"Range {index}: from {numpy.int8(data[48:][i])} to {numpy.int8(data[48:][i + 1])} °C")
+			self.possible_temperature_ranges[i] = range(numpy.int8(self.data[48:][i]), numpy.int8(self.data[48:][
 																										i + 1]))  # f"{numpy.uint8(self.data[48:][i])} C - {numpy.uint8(self.data[48:][i + 1])} C"
 
 	# self.temperature_ranges_dict[i]
