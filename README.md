@@ -5,8 +5,9 @@ A python-based waveform (wbf) parser for parallel e-paper displays.
 
 ⚠️ Unlike most repos, this repo does not have a license as the aim of this repo is to understand the waveform format and possibly develop converters from one file format to another. 
 
-You are allowed to use this code for private purposes only as long as you publish any progress you have made back to me.
-To use the parser, you will need a .wbf file as these files are often restricted
+You are allowed to use this code for private purposes only as long as you publish any progress you have made back to me via a pull request. The recommended approach is to clone the repo, test and develop this code and create a PR with the improvements.
+
+To use the parser, you will need a .wbf file as these files are often restricted and distributing them may be a problem.
 
 
 ## Waveform file
